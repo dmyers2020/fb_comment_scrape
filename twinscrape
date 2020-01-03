@@ -1,0 +1,16 @@
+#COMMENT THREAD
+# I 'saved' the post of interest to get the permalink below:
+https://www.facebook.com/groups/1527955790853126/permalink/2451314448517251/
+
+#Click "View previous comments" until you can see all the comments... AUTO OPP
+
+# right-click on a comment in the post and select 'inspect element' to open the chrome dev tool
+# Copy paste the following into the Console... noob alert
+
+var x = document.getElementsByClassName("_3l3x"); #Change "_3l3x" to whatever the element is named in your case
+var i;
+var data =[];
+for (i = 0; i<x.length; i++) {data[i]=x[i].innerText;}
+data
+
+# copy paste the results into whatever tool you plan on using to parse/analyze... AUTO OPP 
